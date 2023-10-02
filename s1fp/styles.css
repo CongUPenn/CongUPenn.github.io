@@ -1,0 +1,25 @@
+img {
+    width: 100px;
+    height: auto;
+}
+
+body {
+    background-color: yellow;
+}
+
+#secondpage {
+    color: red;
+}
+
+#swap {
+    width: 400px;
+    height: 400px;
+    background-image: url("cat.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #swap:hover {
+    background-image: url("https://uppi.club/-img/homer2.jpg");
+  }

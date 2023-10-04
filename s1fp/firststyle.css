@@ -9,7 +9,7 @@
 
 #topdiv{
     position: absolute;
-    top:calc(50vh - 200px);
+    top:316px;
     left:calc(50vw - 200px);
     width: 400px;
     height: 267px;
@@ -21,7 +21,7 @@
 
 #bottomdiv{
     position: absolute;
-    top:calc(50vh - 200px);
+    top:316px;
     left:calc(50vw - 200px);
     width: 400px;
     height: 267px;
@@ -34,7 +34,7 @@
 
 #bottomdivmenu{
   position: absolute;
-  top:calc(50vh - 200px);
+  top:316px;
   left:calc(50vw - 200px);
   width: 400px;
   height: 267px;
@@ -56,7 +56,7 @@ a:link {
   color: black;
 }
   section {
-    padding-top: calc(50vh - 85px);
+    padding-top: 430px;
     padding-left:calc(50vw - 200px);
   }
 

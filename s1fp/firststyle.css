@@ -1,0 +1,102 @@
+#title{
+    padding-top: 100px;
+    padding-left:calc(50vw - 200px);
+    color: #000000;
+    font-family: monospace;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+#topdiv{
+    position: absolute;
+    top:calc(50vh - 200px);
+    left:calc(50vw - 200px);
+    width: 400px;
+    height: 267px;
+    background-image: url("profil.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bottomdiv{
+    position: absolute;
+    top:calc(50vh - 200px);
+    left:calc(50vw - 200px);
+    width: 400px;
+    height: 267px;
+    background-image: url("white.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index:-1;
+}
+
+#bottomdivmenu{
+  position: absolute;
+  top:calc(50vh - 200px);
+  left:calc(50vw - 200px);
+  width: 400px;
+  height: 267px;
+}
+
+#mono{
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-size: 8px;
+  letter-spacing: .19px;
+  line-height:11.2px; 
+  overflow: hidden;
+}
+
+#topdiv:hover{
+    opacity:0;
+}
+
+a:link {
+  color: black;
+}
+  section {
+    padding-top: calc(50vh - 85px);
+    padding-left:calc(50vw - 200px);
+  }
+
+  #styledtable {
+    border-collapse: collapse;
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    font-size: 8px;
+    letter-spacing: .19px;
+    line-height:11.2px; 
+  }
+
+  #shopping, #social {
+    font-size: 20px;
+    display: block;
+  }
+  #shopping {
+    margin-left: 200px;
+  }
+  #social {
+    margin-left: 100px;
+  }
+
+  /* #styledtable td {
+    border: 1px solid #000000;
+    min-width: 200px;
+    height: 200px;
+    text-align: center;
+  } */
+
+  /* #styledtable tr:nth-child(even) {
+    background-color: #999999;
+  } */
+
+  .animation{
+    overflow: hidden;
+    animation: linebyline 1s steps(7);
+    animation-iteration-count: 1;
+  }
+
+  @keyframes linebyline {
+    from {height: 0px;}
+    to {height: 120px;}
+  }

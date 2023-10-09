@@ -108,7 +108,7 @@
 
   .animation{
     overflow: hidden;
-    animation: linebyline 2s steps(45);
+    animation: linebyline 1s steps(45);
     animation-iteration-count: 1;
   }
 

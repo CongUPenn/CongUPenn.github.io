@@ -1,3 +1,7 @@
+#firstpage{
+  background-color: yellow;
+}
+
 #title{
     padding-top: 100px;
     padding-left:calc(50vw - 200px);
@@ -40,7 +44,16 @@
   height: 267px;
 }
 
-#mono{
+#mono1{
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-size: 8px;
+  letter-spacing: .19px;
+  line-height:11.2px; 
+  overflow: hidden;
+  color:yellow;
+}
+
+#mono2{
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
   font-size: 8px;
   letter-spacing: .19px;
@@ -52,9 +65,11 @@
     opacity:0;
 }
 
-a:link {
-  color: black;
+.highlight:hover{
+  color:rgb(178, 178, 178);
 }
+
+
   section {
     padding-top: 430px;
     padding-left:calc(50vw - 200px);
@@ -68,6 +83,7 @@ a:link {
     line-height:11.2px; 
   }
 
+  
   #shopping, #social {
     font-size: 20px;
     display: block;
@@ -92,11 +108,11 @@ a:link {
 
   .animation{
     overflow: hidden;
-    animation: linebyline 1s steps(7);
+    animation: linebyline 5s steps(45);
     animation-iteration-count: 1;
   }
 
   @keyframes linebyline {
     from {height: 0px;}
-    to {height: 120px;}
+    to {height: 500px;}
   }

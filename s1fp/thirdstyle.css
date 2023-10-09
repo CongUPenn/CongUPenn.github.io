@@ -1,0 +1,154 @@
+body {
+    cursor: url("user.gif"),auto;
+}
+
+.text{
+    color: #000000;
+    font-family: monospace;
+    font-size: 16px;
+    letter-spacing: 3px;
+    position: absolute;
+    top:50px;
+}
+
+#firstwrapper {
+    position: relative;
+    height: 1200px;
+    color: rgb(203, 203, 203);
+    
+}
+
+
+section {
+    padding-top: 80px;
+    padding-left:calc(50vw - 182px);
+  }
+  #styledtable {
+    border-collapse: collapse;
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    font-size: 8px;
+    letter-spacing: .19px;
+    line-height:11.2px; 
+  }
+
+#showcast{
+    position: absolute;
+
+    top:calc(50vh - 50px);
+    left:calc(50vw - 600px);
+    width: 1200px;
+    height: 1600px;
+    /* background-color: #ffffff; */
+}  
+
+#search {
+    position: absolute;
+    top:10px; 
+    left:40px;
+    width: 640px;
+    height: 480px;
+    background-image: url("learningp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#search:hover{
+    background-image:url("search.gif");
+}
+
+
+#video2 {
+    position: absolute;
+    top:450px; 
+    left:40px;
+    width: 640px;
+    height: 480px;
+    /* background-image: url("coatg.jpg");
+    background-size: contain
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+#inter1 {
+    position: absolute;
+    bottom:70px;
+    right:25px;
+    width: 800px;
+    height: 500px;
+    background-image: url("interface1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#text3{
+    top:10px;
+}
+#inter1:hover {
+    background-image: url("https://i.gifer.com/EBip.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#text4{
+    top:470px;
+}
+
+#secondwrapper{
+    top:800px;
+    height: 1200px;
+    position: relative;
+    background-color: white;
+    font-size: 200px;
+    color:yellow;
+    overflow: hidden;
+}
+
+#secondwrapper:hover{
+    cursor: url("hmm.gif"),auto;
+}
+
+#inter2 {
+    position: absolute;
+    top:3000px;
+    left:calc(50vw - 400px);
+    width: 800px;
+    height: 500px;
+    background-image: url("interface2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index:1;
+}
+
+#inter2:hover{
+    background-image: url("interface3.png");
+    cursor: url("hmm.gif"),auto;
+}
+
+#thirdwrapper{
+    top:800px;
+    height: 1200px;
+    position: relative;
+    /* background-color: white; */
+    font-size: 200px;
+    color:rgb(255, 255, 255);
+    overflow: hidden;
+}
+#text5{
+    top:600px;
+    left:calc(50vw - 50px);
+}
+
+#video1 {
+    position: absolute;
+    top:600px; 
+    left:calc(50vw - 320px);
+    width: 640px;
+    height: 480px;
+    /* background-image: url("coatg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
+}

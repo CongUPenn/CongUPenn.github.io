@@ -129,7 +129,7 @@ section {
 
 #thirdwrapper{
     top:800px;
-    height: 1200px;
+    height: 1500px;
     position: relative;
     /* background-color: white; */
     font-size: 200px;
@@ -151,4 +151,11 @@ section {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; */
+}
+
+#fwrapper{
+   
+    position: absolute;
+    bottom:0;
+    left:calc(50vw - 500px);
 }

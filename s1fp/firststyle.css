@@ -2,6 +2,11 @@
   background-color: yellow;
 }
 
+body {
+  cursor: url("user.gif"),auto;
+  min-height: 1000px;;
+}
+
 #title{
     padding-top: 100px;
     padding-left:calc(50vw - 200px);

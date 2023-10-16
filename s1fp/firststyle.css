@@ -31,8 +31,13 @@ body {
 #relocate{
   position: absolute;
   bottom:15px;
-  left:15px;
+  left: 15px;
   color:black;
+  font-family: monospace;
+}
+
+a:link{
+  color:#000000;
   font-family: monospace;
 }
 

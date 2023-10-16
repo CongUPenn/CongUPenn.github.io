@@ -30,8 +30,8 @@ body {
 
 #relocate{
   position: absolute;
-  bottom:5px;
-  left:calc(50vw - 420px);
+  bottom:15px;
+  left:15px;
   color:black;
   font-family: monospace;
 }

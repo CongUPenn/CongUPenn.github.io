@@ -28,14 +28,12 @@ body {
     background-position: center;
 }
 
-#webring{
+#relocate{
   position: absolute;
   bottom:15px;
   left: 15px;
-}
-
-#webring-link{
-  color:white;
+  color:black;
+  font-family: monospace;
 }
 
 a:link{

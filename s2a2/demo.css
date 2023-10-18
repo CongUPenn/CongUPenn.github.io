@@ -1,0 +1,68 @@
+a:link {
+    color: black;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+  a:active {
+    color: green;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+
+  /* ~group1 */
+  /* #stylingwithinteraction {
+    width: 0px;
+    height: 0px;
+    background-color: black;
+  }
+  
+  #stylingwithinteraction:target {
+    width: 10px;
+    height: 10px;
+  } */
+
+
+  /* ~group2 */
+  /* #stylingwithinteraction {
+    display: none;
+  }
+  
+  #stylingwithinteraction:target {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: block;
+  } */
+
+
+  /* ~group3 */
+  /* #stylingwithinteraction {
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+  }
+  
+  #stylingwithinteraction:target {
+    opacity: 1;
+  } */
+
+
+  /* ~group4 */
+  #stylingwithinteraction {
+    opacity:0;
+  }
+  
+  #stylingwithinteraction:target {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    opacity:100;
+  }

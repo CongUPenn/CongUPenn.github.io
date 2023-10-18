@@ -1,0 +1,116 @@
+#title{
+    padding-top: 100px;
+    padding-left:calc(50vw - 200px);
+    color: #000000;
+    font-family: monospace;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+#background{
+    position: absolute;
+    top:450px;
+    left:calc(50vw - 300px);
+    width: 600px;
+    height: 400px;
+    background-image: url("bbcl.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#toppingtrigger{
+    position:absolute;
+    top:80px;
+    left:190px;
+    width: 195px;
+    height: 55px;
+    /* background:yellow; */
+
+}
+
+#topping{
+    position:absolute;
+    top:-00px;
+    left:0px;
+    width: 195px;
+    height: 55px;
+    /* background:yellow; */
+}
+
+/* #toppingup{
+    position:absolute;
+    top:-200px;
+    left:0px;
+    width: 195px;
+    height: 55px;
+    /* background:yellow; */
+} */
+
+#toppingtrigger:target{
+    opacity:1;
+}
+
+.berry{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color:rgb(68, 8, 82);
+}
+
+.highlight{
+    background-image: radial-gradient(
+    circle at 30% 30%,
+    rgba(200, 255, 255, 0.4) 0%,
+    rgba(0, 255, 255, 0.1) 7px,
+    rgba(0, 255, 255, 0) 50%
+    );
+}
+
+#b1{
+    position:absolute;
+    top:3px;
+    left:0px;
+}
+
+#b2{
+    position:absolute;
+    top:20px;
+    left:25px;
+}
+
+#b3{
+    position:absolute;
+    top:-17px;
+    left:92px;
+}
+
+#b4{
+    position:absolute;
+    top:10px;
+    left:85px;
+}
+
+#b5{
+    position:absolute;
+    top:30px;
+    left:75px;
+}
+
+#b6{
+    position:absolute;
+    top:-6px;
+    left:140px;
+}
+
+#b7{
+    position:absolute;
+    top:20px;
+    left:110px;
+}
+
+#b8{
+    position:absolute;
+    top:35px;
+    left:145px;
+}

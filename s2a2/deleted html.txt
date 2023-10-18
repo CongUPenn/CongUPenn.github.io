@@ -1,0 +1,13 @@
+
+<div id="toppingup">
+                <div id="b1" class="berry highlight"></div>
+                <div id="b2" class="berry highlight">
+                    <!-- <div class id="highlight"></div> -->
+                </div>
+                <div id="b3" class="berry highlight"></div>
+                <div id="b4" class="berry highlight"></div>
+                <div id="b5" class="berry highlight"></div>
+                <div id="b6" class="berry highlight"></div>
+                <div id="b7" class="berry highlight"></div>
+                <div id="b8" class="berry highlight"></div>
+            </div>

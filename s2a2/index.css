@@ -27,112 +27,349 @@
     position: absolute;
     top:450px;
     left:calc(50vw - 180px);
-    color:rgb(201, 146, 253);
+    color:rgb(187, 146, 253);
     font-size: 200;
-    opacity:0;
+    display: none;
     z-index:1;
 }
 
 #start:target{
-    opacity:1;
+    display: block;
 }
 
-#start:target ~ a#background, #step1:target ~ a#background, #step2:target ~ a#background {
-    opacity: .1;
+#start:target ~ a#background, #step1:target ~ a#background, #step2:target ~ a#background, #step3:target ~ a#background, #step4:target ~ a#background {
+    opacity: .2;
+}
+
+#step1:target,#step2:target,#step3:target,#step4:target{
+    opacity:1;
 }
 
 #step1{
-    background-color: #000000;
+    background-color: #fff0bb;
     position: absolute;
     top:450px;
-    left:calc(50vw - 400px);
-    width: 60px;
-    height: 60px;
+    left:calc(50vw - 650px);
+    width: 300px;
+    height: 150px;
+    opacity:0;
+    border-radius: 5px;
+    padding-left: 10PX;
+    padding-top: 10PX;
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height:20px; 
+    overflow: hidden;
+    color:rgb(164, 126, 211);
+}
+
+#grahamcracker{
+    position: absolute;
+    top:550;
+    left:50;
+    width: 200px;
+    height: 200px;
+    background-image: url("grahamcracker.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     opacity:0;
 }
 
-#step1:target{
+#grahamcracker:target{
     opacity:1;
+}
+
+#grahamcracker:hover{
+    transform: rotate(10deg);
+}
+
+#grahamcracker:active{
+    transform: rotate(50deg);
+}
+
+#cracker{
+    position: absolute;
+    top:570;
+    left:240;
+    width: 200px;
+    height: 200px;
+    background-image: url("crackers.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity:0;
+}
+
+#cracker:target{
+    opacity:1;
+}
+
+#cracker:hover{
+    background-image: url("crackerscrushed.jpg");
+}
+
+#base{
+    position: absolute;
+    top:500px;
+    left:calc(50vw - 160px);
+    width: 300px;
+    height: 300px;
+    background-image: url("base.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:none;
+    z-index: 1;
+}
+
+#base:target{
+    display: block;
+}
+
+#grahamcracker:hover ~ a#background, #grahamcracker:active ~ a#background, #cracker:target ~ a#background, #base:target ~ a#background{
+    opacity: .2;
 }
 
 #step2{
-    background-color: #935858;
+    background-color: #f0bbff;
     position: absolute;
     top:700px;
-    left:calc(50vw - 400px);
-    width: 60px;
-    height: 60px;
+    left:calc(50vw - 650px);
+    width: 300px;
+    height: 150px;
     opacity:0;
+    border-radius: 5px;
+    padding-left: 10PX;
+    padding-top: 10PX;
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height:20px; 
+    /* overflow: hidden; */
+    color:rgb(255, 233, 159);
 }
-#step2:target{
-    opacity:1;
+
+#ingre{
+    position: absolute;
+    top:70;
+    left:50;
+    width: 300px;
+    height: 200px;
+    background-image: url("ingre.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#cream{
+    position: absolute;
+    top:500px;
+    left:calc(50vw - 160px);
+    width: 300px;
+    height: 300px;
+    background-image: url("cream.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+    z-index: 1;
+    animation: wiggle 3s linear infinite;
+}
+
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(30deg);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(15deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(10deg);
+    }
+    35% {
+      transform: rotateZ(20deg);
+    }
+    40%, 100% {
+      transform: rotateZ(30deg);
+    }
+  }
+
+#cream:target{
+   display:block;
+}
+
+#cream:hover{
+    transform: rotate(359deg);
+}
+
+#cream:visited{
+    display: none;
+}
+
+#mix{
+    position: absolute;
+    top:500px;
+    left:calc(50vw - 160px);
+    width: 300px;
+    height: 300px;
+    background-image: url("mix.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+    z-index: 1;
+}
+
+#mix:target{
+    display:block;
+}
+
+#cream:hover ~ a#background, #cream:target ~ a#background, #cream:visited ~ a#background, #mix:target ~ a#background{
+    opacity: .2;
 }
 
 #step3{
-    background-color: #589358;
+    background-color: #f0bbff;
     position: absolute;
     top:450px;
-    right:calc(50vw - 400px);
-    width: 60px;
-    height: 60px;
+    right:calc(50vw - 650px);
+    width: 300px;
+    height: 150px;
+    opacity:0;
+    border-radius: 5px;
+    padding-left: 10PX;
+    padding-top: 10PX;
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height:20px; 
+    /* overflow: hidden; */
+    color:#483196;
+}
+
+#blueberry{
+    position: absolute;
+    top:550;
+    right:50;
+    width: 200px;
+    height: 200px;
+    background-image: url("blueberry.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     opacity:0;
 }
-#step3:target{
+
+#blueberry:target{
     opacity:1;
+}
+
+#blueberry:hover{
+    transform: rotate(-10deg);
+}
+
+#blueberry:active{
+    transform: rotate(-50deg);
+}
+
+#fill{
+    position: absolute;
+    top:500px;
+    left:calc(50vw - 160px);
+    width: 300px;
+    height: 300px;
+    background-image: url("fill.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+    z-index: 1;
+}
+
+#fill:target{
+    display:block;
+}
+
+#blueberry:hover ~ a#background, #blueberry:target ~ a#background, #blueberry:visited ~ a#background, #fill:target ~ a#background{
+    opacity: .2;
 }
 
 #step4{
     background-color: #5e5893;
     position: absolute;
     top:700px;
-    right:calc(50vw - 400px);
-    width: 60px;
-    height: 60px;
+    right:calc(50vw - 650px);
+    width: 300px;
+    height: 200px;
     opacity:0;
-}
-#step4:target{
-    opacity:1;
+    border-radius: 5px;
+    padding-left: 10PX;
+    padding-top: 10PX;
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height:20px; 
+    /* overflow: hidden; */
+    color:#f0bbff;
 }
 
-#final{
-    background-color: #5e5893;
+#jam{
     position: absolute;
-    font-family: monospace;
-    font-size: 100px;
-    top:900px;
-    left:calc(50vw - 400px);
-    width: 60px;
-    height: 60px;
-    opacity:0;
-    color:#935858
+    top:20px;
+    left:calc(50vw - 160px);
+    width: 300px;
+    height: 300px;
+    background-image: url("jam.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+
 }
 
-#final:target{
-    opacity:1;
+#jam:target{
+    display: block;
 }
-
-
-
 
 
 #topping{
     position: absolute;
     top:530px;
-    left:50px;
+    left:calc(50vw - 110px);
     width: 195px;
     height: 55px;
-    /* background:yellow; */
+    opacity: 0.5;
+    display: inline-block;
+    opacity: 0;
+    transition: 1s;
+    transform: translate(0, -200px);
+    z-index: 1;
 }
 
-#toppingtrigger:target{
-    opacity:1;
+#topping:target{
+    opacity:0.5;
+    transform: translate(0, 0);
 }
+
+#jam:target ~ a#background, #btopping:target ~ a#background,#final:target ~ a#background{
+    opacity: .2;
+}
+
 
 .berry{
     width: 45px;
     height: 45px;
     border-radius: 50%;
     background-color:rgb(68, 8, 82);
+    z-index: 1;
 }
 
 .highlight{
@@ -190,4 +427,22 @@
     position:absolute;
     top:35px;
     left:145px;
+}
+
+#final{
+    /* background-color: #5e5893; */
+    position: absolute;
+    font-family: monospace;
+    font-size: 100px;
+    top:600px;
+    left:calc(50vw - 700px);
+    width: 60px;
+    height: 60px;
+    display:none;
+    color:#845cc7;
+    z-index: 1;
+}
+
+#final:target{
+    display:block;
 }

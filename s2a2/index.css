@@ -11,6 +11,15 @@
     letter-spacing: 3px;
 }
 
+#ref{
+    padding-top: 50px;
+    padding-left:calc(50vw - 200px);
+    color: #000000;
+    font-family: monospace;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
 #background{
     position: absolute;
     top:450px;
@@ -448,3 +457,4 @@
 #final:target{
     display:block;
 }
+

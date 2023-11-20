@@ -1,0 +1,116 @@
+body {
+    
+    font-size: 10px;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #333D51;
+    background: linear-gradient(0deg, #A3C6C4 0%, #333D51 100%);
+    color:#F4F3EA;
+    padding:70px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.inbox, .outbox {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+button {
+    color:#D3AC2B;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F4F3EA;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#output {
+    background-color: #95bf5a;
+    position: absolute;
+    bottom:10px;
+    left: 50%;
+    margin-top: 20px;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+    
+}
+
+#wordCard{
+    font-size: 2em;
+    background-color: #bfa15a;
+    border-radius: 50px;
+    height:300px;
+    padding:10%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#clueInput{
+    height:40px;
+
+    font-size: 50px;
+    color:#F4F3EA;
+    
+    /* background-color: #D3AC2B; */
+    background-color: #eac97e;
+    border-radius: 50px;
+    height:300px;
+    padding:10%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#guessInput{
+    height:40px;
+
+    font-size: 50px;
+    color:#D3AC2B;
+    background-color: #F4F3EA;
+    border-radius: 50px;
+    height:300px;
+    padding:10%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+ 
+
+
+  /* Add style for the clues container */
+.cluesContainer {
+    
+    /* background-color: rgba(255, 255, 255, 0.333); */
+    
+    background-color: #D3AC2B;
+    text-align: center;
+    
+    color:#F4F3EA;
+    padding:70px;
+    border-radius: 8px;
+    
+}
+
+/* Add style for clues list */
+#cluesList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cluesList li {
+    margin-bottom: 8px;
+}

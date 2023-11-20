@@ -1,46 +1,66 @@
+<!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="style.css">
-    <title>digital life: cooking</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&family=Oswald:wght@400;700&display=swap">
+
+    <!-- font VT323 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&display=swap">
+
+    <!-- font Montserrat (700): Montserrat -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap">
+
+    <link rel="stylesheet" href="codenamestyle.css">
+    <title>Pass the word</title>
+
 </head>
+
 
 <body>
     <div id="leftcol">
-        <p>Instruction Knitting Pattern
-        </p>
-        
-        <div id="pattern">
-            <div id="row1">
-                <div id="p1" class="px">
-                    <div id="circle"></div>
-                </div>
-                <div id="p2" class="px">
-                    <div id="line"></div>
-                </div>
-                <div id="p3" class="px"></div>
-                <div id="p4" class="px"></div>
-            </div>
-            <div id="row2">
-                <div id="p1" class="px"></div>
-                <div id="p2" class="px"></div>
-                <div id="p3" class="px"></div>
-                <div id="p4" class="px"></div>
-            </div>
+        <p style="font-family: 'Oswald', sans-serif;">Mission</p>
+        <div class="container" style="font-family: 'VT323', monospace;">
+            <h1 style="font-family: 'Oswald', sans-serif;">Write down</h1>
+            <p>Shhhh...Fellow spies, the Secret Intelligence Service has just sent the latest mission. <br>You need to pass this word secretly to your ally. Don't say it. Use another word or phrase to describe it. <br><br>Please click start and enter your clue in the box below to let the other party guess it.</p>
+            
+            <button onclick="startGame()">Start Game</button><br><br>
+            <div class="word-card" id="wordCard">Random Word</div>
+
+            <p>Remenber the word! scroll the page down until the others can not see th right anser. </p>
+            <p>That's right, keep scrolling</p>
+            <p>scrolling</p>
+            <p>scroll...</p>
+            <p>...ing</p>
+            <p>Now tell the others to open their eyes and write down your clue</p>
+            <p>You can give as many clues as you want until your ally gets the right answer</p>
+            
+            <input type="text" id="clueInput" placeholder="Enter clue here..." style="font-family: 'VT323', monospace;">
+            <br>
+            <button onclick="submitClue()">Submit Clue</button><br><br><br>
+            <!-- <div class="container"></div> -->
+            <div id="output">A</div>
         </div>
 
-        <a href="https://littleredwindow.com/1x1-rib-stitch-knitting-pattern/" style="font-size:15px;">origin link</a>
-        <main>
-        </main>
-        <script src="sketch.js"></script>
+
     </div>
     
     <div id="rightcol">
-        <p>Nullam feugiat neque sed quam elementum, non eleifend quam euismod. Fusce in tortor sagittis, ornare leo vitae, congue justo. Sed semper malesuada nibh, laoreet dignissim augue venenatis eu. Duis accumsan condimentum diam, vel consequat arcu accumsan sit amet. Duis felis massa, dapibus a lectus at, blandit pellentesque mauris. Sed a purus ornare, tempor tortor non, congue est. Fusce vel justo eu mauris dictum aliquet id a nisl. Suspendisse faucibus magna sed sem aliquam rutrum. Pellentesque fermentum nibh leo, eget iaculis lorem eleifend non. Mauris sapien neque, commodo vel malesuada pretium, venenatis ut quam.
-        </p>
-        <p>
-        Vivamus tempus mi ac mi scelerisque tempor. Fusce fringilla nibh at mauris posuere luctus. Vivamus ante quam, sollicitudin nec lacus ut, faucibus pellentesque elit. Aenean scelerisque dapibus luctus. Phasellus ut condimentum nisl. Integer suscipit nulla id pretium ultrices. Vivamus mi dolor, iaculis sit amet feugiat eu, sagittis sed mauris. Aenean tincidunt leo id justo aliquet ultrices. Suspendisse porttitor dui mollis leo tempus, ac dapibus felis ullamcorper. Morbi laoreet interdum mollis. Pellentesque cursus velit id laoreet pharetra. Donec tincidunt fermentum neque feugiat dignissim. Mauris congue accumsan quam, quis pharetra purus tincidunt sit amet. Quisque finibus suscipit ex, id ornare eros molestie vitae.
-        </p>
+        <p style="font-family: 'Oswald', sans-serif;">Completed?</p>
+        <div class="cluesContainer" style="font-family: 'VT323', monospace;">
+            <h2 style="font-family: 'Oswald', sans-serif;">Spy log</h2>
+            <ul id="cluesList"></ul>
+            <br>
+            <input type="text" id="guessInput" placeholder="Enter your guess..."style="font-family: 'VT323', monospace;">
+            <br>
+            <button onclick="guessWord()">Guess Word</button>
+            <br><br><br>
+        </div>
     </div>
     
-    <div id="floatclar"></div>
+    <!-- <div id="floatclar"></div> -->
+
+    <script src="codenames.js"></script>
 </body>
+</html>

@@ -35,7 +35,7 @@ function submitClue() {
     }
 
     if(clue.includes("apple") || clue.includes("banana")||clue.includes("carrot") || clue.includes("grasshopper")||clue.includes("bubblefish") || clue.includes("rhino")){
-        outputElement.textContent = "You spoiler!!!";
+        outputElement.textContent = "You spoiler!!!This round ends";
         return;
     }else{
         outputElement.textContent = "Team, your clue is: '" + clue + "'";

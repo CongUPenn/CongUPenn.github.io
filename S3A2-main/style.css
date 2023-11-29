@@ -1,0 +1,408 @@
+body {
+    font-family: 'Inter', serif;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* PART 1: ZOOM CALL  */
+#wrapper-js {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.element {
+    background-color: #ffffff;
+
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .element .div {
+    background-color: #ffffff;
+    height: 1024px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .element .text-wrapper {
+    color: #000000;
+    font-family: "Maven Pro-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    height: 47px;
+    left: 661px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 251px;
+    display: flex;
+    white-space: nowrap;
+  }
+  
+  .element .text-wrapper-2 {
+    color: #a8a8a8;
+    font-family: "Maven Pro-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    height: 21px;
+    left: 653px;
+    letter-spacing: 0;
+    display: flex;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 306px;
+    white-space: nowrap;
+  }
+  
+  .element .overlap {
+    height: 90px;
+    left: 667px;
+    position: absolute;
+    top: 423px;
+    width: 103px;
+    display: flex;
+  }
+  
+  .element .vector {
+    height: 90px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 90px;
+    display: flex;
+  }
+  
+  .element .img {
+    height: 34px;
+    left: 52px;
+    position: absolute;
+    top: 10px;
+    width: 51px;
+    display: flex;
+  }
+  
+  .element .overlap-group {
+    height: 55px;
+    left: 523px;
+    position: absolute;
+    top: 720px;
+    width: 394px;
+    display: flex;
+  }
+  
+  .element .frame {
+    height: 55px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 394px;
+    display: flex;
+  }
+  
+  .element .rectangle {
+    background-color: #ff334c;
+    border-radius: 16px;
+    height: 55px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 181px;
+    display: flex;
+  }
+  
+  .element .rectangle-2 {
+    background-color: #00c766;
+    border-radius: 16px;
+    height: 55px;
+    left: 213px;
+    position: absolute;
+    top: 0;
+    width: 181px;
+    display: flex;
+  }
+  
+  .element .frame-2 {
+    height: 24px;
+    left: 52px;
+    position: absolute;
+    top: 14px;
+    width: 281px;
+    display: flex;
+  }
+  
+  .element .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Maven Pro-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    height: 24px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    white-space: nowrap;
+    display: flex;
+  }
+  
+  .element .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Maven Pro-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    height: 24px;
+    left: 215px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    white-space: nowrap;
+    display: flex;
+  }
+  
+  .element .div-wrapper {
+    background-color: #ffa904;
+    border-radius: 16px;
+    height: 55px;
+    left: 630px;
+    position: absolute;
+    top: 801px;
+    width: 181px;
+    display: flex;
+    cursor: pointer; /* Add cursor pointer on hover */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  
+    /* Add hover effect */
+    &:hover {
+      transform: scale(1.1); /* Grow by 10% on hover */
+    }
+  }
+  
+  .element .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 42px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 15px;
+    white-space: nowrap;
+    display: flex;
+    cursor: pointer; /* Add cursor pointer on hover */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    }
+
+/* PART 2: ZOOM ANIMATION  */
+#wrapper-cl {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #FF6D05;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#button{
+    background-color: #000000;
+    border-radius: 16px;
+    height: 55px;
+    width: 181px;
+    display: flex;
+    cursor: pointer; /* Add cursor pointer on hover */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    
+    /* Add hover effect */
+    &:hover {
+      transform: scale(1.1); /* Grow by 10% on hover */
+    }
+}
+
+.text-wrapper-6 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+
+  position: absolute;
+  top: 15px;
+  left: 60px;
+  white-space: nowrap;
+  display: flex;
+  cursor: pointer; /* Add cursor pointer on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-gap: 5px;
+}
+
+.grid-item {
+  width: 300px;
+  height: 200px;
+  background-color: #eee;
+  background: url('path_to_your_image.jpg') center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-image: center;
+}
+
+#zoom{
+  background: url('zoom.jpg') center center no-repeat;
+  background-size: 900px 600px;
+}
+
+.active {
+  background-color: #FF6D05;
+}
+
+.grid-item::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+#jokebox{
+  color: #ffffff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  position:relative;
+  top:-205;
+  right:-300;
+  width: 300px;
+  height: 200px;
+  background-color: #FF6D05;
+  opacity: 0; /* 初始时透明 */
+      transition: opacity 0.5s ease; /* 添加过渡效果 */
+}
+
+/* PART 3: APP IN ACTION  */
+#wrapper-rw {
+    width: 100vw;
+    height: fit-content;
+    background: linear-gradient(#FF6D05 0%, black 100%);
+    color: white;
+}
+
+#content-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 72px;
+    width: 1200px;
+    height: 1024px;
+    padding: 72px 0px;
+}
+
+#main-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    width: 100%;
+    height: 186px;
+}
+
+#app-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: fit-content;
+    border-radius: 32px;
+    padding: 48px 36px;
+    gap: 64px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#review {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 52px;
+    width: auto;
+    height: 100%;
+    font-size: 28px;
+    font-weight:normal;
+    font-style: italic;
+}
+
+.mockimg {
+    position: relative;
+    width: auto;
+    height: 100%;
+}
+
+.link-button {
+    position: relative;
+    display: flex;
+    width: 280px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60px;
+    border: solid 2px white;
+    background-color: rgba(255, 255, 255, 0.5);
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: initial;
+    font-style: normal;
+}
+
+.link-button:hover {
+    box-shadow:
+    0 0 10px #ffffff,
+    10px 0 50px rgba(172, 255, 240, 0.6);
+    transition: ease-in 0.1s;
+}
+
+
+

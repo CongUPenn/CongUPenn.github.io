@@ -1,39 +1,41 @@
-let userInteractiveElement;
+let initialBranchLength = 100;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  // Initialize your user-interactive element
-  userInteractiveElement = new UserInteractiveElement();
+  createCanvas(800, 600).parent('canvas-container');
 }
 
 function draw() {
-  // Generate your design with conditional loops and randomness
   background(255);
-  // Call functions to draw generative design
-  drawGenerativeDesign();
-  // Update and display user-interactive element
-  userInteractiveElement.update();
-  userInteractiveElement.display();
+  translate(width / 2, height);
+
+  // 根据鼠标位置随机生成递归树
+  let angle = map(mouseX, 0, width, PI / 6, PI / 2);
+  let length = map(mouseY, 0, height, 50, 200);
+
+  // 调用递归绘制树
+  branch(length, angle);
 }
 
-function drawGenerativeDesign() {
-  // Implement your generative design logic here
-  // Use conditional loops and randomness
+function branch(len, angle) {
+  // 递归结束条件
+  if (len < 2) return;
+
+  // 绘制当前分支
+  stroke(0);
+  strokeWeight(len / 10);
+  line(0, 0, 0, -len);
+
+  // 移动到分支末端
+  translate(0, -len);
+
+  // 创建两个新的分支，并递归绘制它们
+  push();
+  rotate(angle);
+  branch(len * 0.67, angle);
+  pop();
+
+  push();
+  rotate(-angle);
+  branch(len * 0.67, angle);
+  pop();
 }
-
-class UserInteractiveElement {
-  constructor() {
-    // Initialize properties for user-interactive element
-  }
-
-  update() {
-    // Update properties based on user interaction
-  }
-
-  display() {
-    // Display the user-interactive element
-  }
-}
-
-// Additional p5.js functions for user interactions (e.g., mousePressed, keyPressed) can be added as needed.
-

@@ -1,4 +1,127 @@
-hello verona
 
 
-<img src="s1fp/cat.jpg">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>project calendar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body id="yourcalendar">
+    <div id="title">
+        DSGN-5004-402 <br>Project Construction Schedule<br><br>
+    </div>
+
+    <div class="container">
+        <div class="box">SEP</div>
+        <div class="box">OCT</div>
+        <div class="box">NOV</div>
+        <div class="box">DEC</div>
+    </div>
+
+    <div id="S1A2wrapper" class="workwrapper">
+        <div id="S1A2" class="object layout" onclick="toggleVisibility('S1A2')">Section 1, Assignment 2 <br>(Critique: 09/25)</div>
+        <div id="S1A21" class="sub-object layout">
+            The class will work together to build an assemblage sculpture from found 
+            and classroom materials. Individual students will then create a “CSS Still 
+            Life” that must consider HTML layout, nesting, and CSS styling. Final work 
+            may employ CSS animations and any degree of design reduction and abstraction. 
+            All HTML & CSS drawings must be horizontally oriented at 800x600px.
+            <a href="https://codepen.io/Tsong54/pen/mdaBgbO?editors=1100" class="link">Explore more</a>
+        </div>
+        
+    </div>
+
+    <div id="S1A3wrapper" class="workwrapper">
+        <div id="S1A3" class="object layout" onclick="toggleVisibility('S1A3')">Section 1, Final project <br>(Critique: 10/09)</div>
+        <div id="S1A31" class="sub-object layout">
+            Students will create an online publication (fan site, zine, exhibition, etc) 
+            that includes a minimum of 5 separate pages and a navigational tool/toolset. 
+            No single page and its linked content can be larger than 5 megabytes.
+            <a href="s1fp/index.html" class="link">Explore more</a>
+        </div>
+    </div>
+
+    <div id="S2A1wrapper" class="workwrapper">
+        <div id="S2A1" class="object layout" onclick="toggleVisibility('S2A1')">Section 2, Assignment 1 <br>(Critique: 10/18)</div>
+        <div id="S2A11" class="sub-object layout">
+            As a class, students will work together to design and build a Web Ring 
+            that links and loops between all students’ web publications (Section 1 Final Project). 
+            The Web Ring may be an external site of links (an index), but must also incorporate some form of modular code 
+            that is implemented on each student’s publication site. 
+            <a href="s1fp/index.html" class="link">Explore more</a>
+        </div>
+    </div>
+
+    <div id="S2A2wrapper" class="workwrapper">
+        <div id="S2A2" class="object layout" onclick="toggleVisibility('S2A2')">Section 2, Assignment 2<br>(Critique: 10/25)</div>
+        <div id="S2A21" class="sub-object layout">
+            Students will create a self-contained, single-page site that employs hover effects and CSS selectors 
+            to assist and encourage user interaction. Your site must include a minimum of 5 images 
+            (observing optimization and best practices) and all elements must contain adequate metadata/alt text. 
+            Your site must also account for viewport sizes to serve comparable or alternate user experiences.
+            <a href="https://congupenn.github.io/s2a2/index.html" class="link">Explore more</a>
+        </div>
+    </div>
+
+    <div id="S2A3wrapper" class="workwrapper">
+        <div id="S2A3" class="object layout" onclick="toggleVisibility('S2A3')">Section 2, Final project<br>(Critique: 11/06)</div>
+        <div id="S2A31" class="sub-object layout">
+            Computational science and, by proxy, web design have a unique history tethered to the users’ system clock. 
+            Students will follow a formalized process from brainstorming and sketching 
+            to prototyping and construction to create a browser-based design 
+            that employs the system clock’s 3 basic events (seconds, minutes, hours) using p5.js. 
+            Your “clock” doesn’t need to resemble a traditional clock, and may instead employ other functions 
+            that are triggered by these events.
+            <a href="https://editor.p5js.org/CongUpenn/sketches/O4Aj7Ik4U" class="link">Explore more</a>
+        </div>
+    </div>
+
+    <div id="S3A1wrapper" class="workwrapper">
+        <div id="S3A1" class="object layout" onclick="toggleVisibility('S3A1')">Section 3, Assignment 1 <br>(Critique: 11/20)</div>
+        <div id="S3A11" class="sub-object layout">
+            Individually or in small groups of 2 or 3, students will design and write a program or script to be performed. 
+            This can be taken literally, as in your script is intended to be enlivened by actors. 
+            This can be taken loosely and all terms can be creatively interpreted. Regardless, 
+            all performances must incorporate learned principles of scripted “functions,” 
+            and must also include an element of “chance.”
+            <a href="s3a1/index.html" class="link">Explore more</a>
+        </div>
+    </div>
+
+    <div id="S3A2wrapper" class="workwrapper">
+        <div id="S3A2" class="object layout" onclick="toggleVisibility('S3A2')">Section 3, Assignment 2 <br>(Critique: 11/29)</div>
+        <div id="S3A21" class="sub-object layout">
+            An API (Application Programming Interface) allows applications, tools, 
+            or services to safely “share” restricted data with other applications, tools, or services. 
+            The availability of this “public facing” data allows developers to build connected/supplementary platforms 
+            that may ease or augment a user’s experience. In teams of two (+), students will work together 
+            to create and execute an interactive design tool that employs API linking with IFTTT (If This Then That). 
+            Teams must also design and develop a website that serves to promote this tool and document its real-life application and usage.
+            <a href="S3A2-main/index.html" class="link">Explore more</a>
+        </div>
+    </div>
+
+    <div id="S3A3wrapper" class="workwrapper">
+        <div id="S3A3" class="object layout" onclick="toggleVisibility('S3A3')">Section 3, Final project<br>(Critique: 12/11)</div>
+        <div id="S3A31" class="sub-object layout">
+            Using p5.js, students will program a generative design that employs functions, loops, and conditionals. 
+            Designs must also incorporate an element of randomness or chance in their code. 
+            Students will work to embed this design within a separate website that also incorporates designed and user-interactive elements. 
+            <a href="s3final/index.html" class="link">Explore more</a>
+        </div>
+    </div>
+
+
+    <div id="s1fpcard" class="describecard">
+        
+    </div>
+
+    <a href="https://roser-wang.github.io/s1fp/" id="relocate">Go somewhere else</a>
+    <a href="2.html">link to my second page</a>
+
+
+    <script src="script.js"></script>
+
+    
+</body>
+

@@ -1,1 +1,125 @@
+#title{
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+    color:#86431c;
+    text-align: center;
+}
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+  
+.box {
+    flex: 1;
+    min-width: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+    color:white;
+    border-radius: 10px;
+    background:linear-gradient(0deg, #86431c 20%, rgb(221, 151, 30) 100%);
+}
+
+.workwrapper{
+    
+    border-radius: 10px;
+}
+
+.layout{
+    border-radius: 10px;
+    padding:10px;
+    min-width: 30px;
+    background:linear-gradient(0deg, #86431c 20%, rgb(221, 151, 30) 100%);
+    text-align: center;
+}
+
+#S1A2wrapper{
+    width:20%;
+}
+
+#S1A3wrapper{
+    width:12.5%;
+}
+
+#S2A1wrapper{
+    width:7.5%;
+}
+
+#S2A2wrapper{
+    width:5%;
+}
+
+#S2A3wrapper{
+    width:10%;
+}
+
+#S3A1wrapper{
+    width:10%;
+}
+
+#S3A2wrapper{
+    width:7.5%;
+}
+
+#S3A3wrapper{
+    width:20%;
+}
+
+.object {
+    cursor: pointer;
+    user-select: none;
+}
+
+.sub-object {
+    display: none;
+    user-select: none;
+}
+
+
+  
+
+/* body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  ul, ol {
+    list-style: none;
+    padding: 0;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  .phase {
+    margin-bottom: 20px;
+  }
+   */

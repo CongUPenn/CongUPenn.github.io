@@ -16,9 +16,25 @@
     }
   }
   
+ // Function to create rectangles
+ function createRectangles() {
+  const container = document.getElementById('rectangleContainer');
+  container.innerHTML = ''; // Clear existing content
 
+  const totalRectangles = 120;
 
+  for (let i = 0; i < totalRectangles; i++) {
+    const rectangle = document.createElement('div');
+    rectangle.classList.add('rectangle');
+    container.appendChild(rectangle);
+  }
+}
 
+// Initial setup
+createRectangles();
+
+// Resize event listener to update rectangles on window resize
+window.addEventListener('resize', createRectangles);
 
 
 

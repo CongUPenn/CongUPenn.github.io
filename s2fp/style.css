@@ -1,5 +1,16 @@
 body {
   margin: 0;
   overflow: hidden;
+  cursor: url("s1fp/dizzy.gif"),auto;
+  background-color: yellow;
+}
+
+#title{
+  padding-top: 140px;
+  text-align:center;
+  color: #000000;
+  font-family: monospace;
+  font-size: 16px;
+  letter-spacing: 3px;
 }
 

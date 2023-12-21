@@ -8,7 +8,8 @@ function setup() {
 }
 
 function draw() {
-  background(40, 80, 100);
+  // background(40, 80, 100);
+  
 
   let s = second();
   let m = minute();
@@ -20,12 +21,13 @@ function draw() {
   let y = (height - 3 * d) / 2 + d / 2;
 
   // Title
-  push();
-  textSize(48);
-  fill(255, 255, 0);
-  textAlign(CENTER, TOP);
-  text('Pac ' + 'O' + "'" + 'Clock', 0, 50, width, height);
-  pop();
+  // push();
+  // textSize(48);
+  // textFont('monospace');
+  // fill(255, 255, 255);
+  // textAlign(CENTER, TOP);
+  // text('Pac ' + 'O' + "'" + 'Clock', 0, 50, width, height);
+  // pop();
 
   // Draw clock circles
   for (let i = 1; i <= 24; i++) {
@@ -34,7 +36,12 @@ function draw() {
     strokeWeight(0);
     fill(map(i, 0, 24, 100, 255), map(i, 0, 24, 100, 255), map(i, 0, 24, 255, 200));
     if (h >= i) {
-      fill(50, 85, 105);
+      // fill(50, 85, 105);
+      
+    }
+    if (h >= i) {
+      fill(255,255,150);
+      
     }
     circle(x + (i - 1) % 8 * d, y + floor((i - 1) / 8) * d, d);
     if (currentH === i) {
@@ -57,7 +64,8 @@ function draw() {
         isOpen = !isOpen;
         lastChange = currentTime;
       }
-      fill(255, 255, 0);
+      fill(255, 230, 0);
+     
       noStroke();
       if (isOpen) {
         arc(x + (i - 1) % 8 * d - d, y + floor((i - 1) / 8) * d, diameter, diameter, Math.PI / 4, -Math.PI / 4, PIE);

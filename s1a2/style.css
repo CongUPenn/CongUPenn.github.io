@@ -1,15 +1,29 @@
 html {
-  background-color: lightgray;
-  padding: 10px;
+  background-color: rgb(255, 234, 44);
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+
+
+
 #background{
+
   width: 600px;
   height: 800px;
   background-color:#FFF8DC;
   overflow: hidden;
-  position: relative;
+
+  /* position: relative; */
 }
+.background:hover{
+  position:relative;
+}
+
+
+
 
 #lettersheettest {
   position: absolute;
@@ -105,7 +119,7 @@ html {
 #ps5top{
   width: 150px;
   height: 130px;
-  background-color:#483D8B;
+  background-color:#809bd6;
   position: absolute;
   transform: skew(-2deg);
   border-radius: 10%;
@@ -154,7 +168,7 @@ html {
 #ps5bottom{
   width: 150px;
   height: 130px;
-  background-color:#483D8B;
+  background-color:#809bd6;
   position: absolute;
   margin-top: 130px;
   margin-left: -14px;
@@ -181,16 +195,16 @@ html {
 }
 
 #cross{
-  background: red;
+  background: rgb(255, 234, 44);
   height: 32px;
   width: 10px;
   position: absolute;
   top: 22px;
-  left: 32px;
+  left: 33px;
     }
 
 #crossafter{
-  background: red;
+  background: rgb(255, 234, 44);
   height: 7px;
   width: 36px;
   position: absolute;

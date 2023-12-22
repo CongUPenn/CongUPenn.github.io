@@ -5,7 +5,8 @@ function setup() {
 }
 
 function draw() {
-  background(255);
+  // background(255);
+  background(255, 234, 44);
   translate(width / 2, height);
 
   // 根据鼠标位置随机生成递归树

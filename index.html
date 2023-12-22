@@ -1,5 +1,4 @@
 
-
 <head>
     <link rel="stylesheet" href="style.css">
     <title>project calendar</title>
@@ -8,7 +7,11 @@
 
 <body id="yourcalendar">
     <div id="title">
-        <br>DSGN-5004-402 <br>Project Implementation Schedule<br><br>
+        <p style="font-size: 24px;"><br>DSGN-5004-402 Fall 2023</p> 
+        Project Implementation Schedule
+        
+        <p class="cong" style="font-size: 24px;color:#ffffff;">Cong Liu<br></p>
+        <div class="img"></div>
     </div>
 
     <div class="container">
@@ -18,238 +21,265 @@
         <div class="box">DEC</div>
     </div>
 
+    <div class="fixed">
+        <div class="boxfixed">SEP</div>
+        <div class="boxfixed">OCT</div>
+        <div class="boxfixed">NOV</div> 
+        <div class="boxfixed">DEC</div>
+    </div>
+
     <div class="grid" id="rectangleContainer"></div>
 
-
-    <div id="RR4wrapper" class="workwrapper">
-        <div id="RR4" class="object layout" onclick="toggleVisibility('RR4')" >Working Log 4 - 09.18 |</div>
-        <div id=" RR41"  class="layout sub-object"><br>
-            Reading Responses for Week 4 - Alessandro Ludovico & Florian Cramer - 
-            Selections from Publishing from Post-Digital-Print
-            <br>
-            <a href="reading.html" class="link">Read the log</a>
+    <div id="calendar">
+        <div id="S1A2wrapper" class="workwrapper">
+            <div id="S1A2" class="object layout" onclick="toggleVisibility('S1A2')">09.25 |<br>Section 1, Assignment 2 |</div>
+            <div id="S1A21" class="layout sub-object">
+                <p style="font-size: 24px;">CSS ASSEMBLAGE SCULPTURE</p>
+                <p style="text-align:left">
+                    Together with the cklass we build an assemblage sculpture from found 
+                    and classroom materials. Based on that, I created my first ever “CSS sculpture" on a horizontally oriented canvas at 800x600px 
+                    that considered HTML layout, nesting, and CSS styling, including simple animation.<br>
+                </p>
+                <a href="s1a2/index.html" class="link">Explore more</a>
+            </div>
+            
         </div>
-    </div>
 
-    <div id="RR5wrapper" class="workwrapper">
-        <div id="RR5" class="object layout" onclick="toggleVisibility('RR5')" >
-            Working Log 5 - 09.25 |
+        <!-- 4 -->
+
+        <!-- 5 -->
+
+        <!-- 6 -->
+
+        <div id="S1A3wrapper" class="workwrapper">
+            <div id="S1A3" class="object layout" onclick="toggleVisibility('S1A3')">10.09 |<br> Section 1, Final project |</div>
+            <div id="S1A31" class="sub-object layout">
+                <p style="font-size: 24px;">HOW'S DIGITAL LIFE? #1</p>
+                <p style="text-align:left">
+                    My first online publication, with separate pages and a navigational tool, is aiming to reveal the common pain points of people's digital life.
+                    This work mainly focused on the topic of online shopping and learning. 
+                    While online format benefits us from many different aspect, is there any frustrating moment? 
+                    What is the moment of your digital life?
+                </p>
+                <a href="s1fp/index.html" class="link">Explore more</a>
+            </div>
         </div>
-        <div id=" RR51"  class="layout sub-object"><br>
-            Reading Responses for Week 5 - Olia Lialina - 
-            STILL THERE Ruins and Templates of Geocities from Lost and Living (in) Archives
-            <br>
-            <a href="reading.html" class="link">Read the log</a>
+
+        <!-- 8 -->
+
+        <div id="S2A1wrapper" class="workwrapper">
+            <div id="S2A1" class="object layout" onclick="toggleVisibility('S2A1')">10.18 |<br>Section 2, Assignment 1 |</div>
+            <div id="S2A11" class="sub-object layout">
+                <p style="font-size: 24px;">WEB RING AMONG US</p>
+                <p style="text-align:left">
+                    As a class, we worked together to design and build a Web Ring 
+                    that links and loops between all our web publications, which is the Section 1 Final Project. 
+                    The Web Ring incorporated a modular code that is implemented on the bottom left of each publication site. 
+                </p>
+                <a href="s1fp/index.html" class="link">Explore more</a>
+            </div>
         </div>
-    </div>
+
+        <!-- 9 -->
+
+        <div id="S2A2wrapper" class="workwrapper">
+            <div id="S2A2" class="object layout" onclick="toggleVisibility('S2A2')">10.25 |<br>Section 2, Assignment 2 |</div>
+            <div id="S2A21" class="sub-object layout">
+                <p style="font-size: 24px;">HOW'S DIGITAL LIFE? #2</p>
+                <p style="text-align:left">
+                    While practicing how to create a self-contained, single-page site that employs hover effects and CSS selectors 
+                    to assist and encourage user interaction, I continued the digital life topic. Sharing information is one of the 
+                    most common activities in our digital life. But isn't it questionable whether the information is successfully conveyed from one to another portal?
+                    
+                    <br><br>(For users convinence, all elements containes adequate metadata/alt text)
+                </p>
+                <a href="https://congupenn.github.io/s2a2/index.html" class="link">Explore more</a>
+            </div>
+        </div>
+
+       <!-- 10 -->
+
+        <div id="S2A3wrapper" class="workwrapper">
+            <div id="S2A3" class="object layout" onclick="toggleVisibility('S2A3')">11.06 |<br>Section 2, Final project |</div>
+            <div id="S2A31" class="sub-object layout">
+                <p style="font-size: 24px;">PAC O'CLOCK</p>
+                <p style="text-align:left">
+                Computational science and, by proxy, web design have a unique history tethered to the users’ system clock. 
+                Students will follow a formalized process from brainstorming and sketching 
+                to prototyping and construction to create a browser-based design 
+                that employs the system clock’s 3 basic events (seconds, minutes, hours) using p5.js. 
+                Your “clock” doesn’t need to resemble a traditional clock, and may instead employ other functions 
+                that are triggered by these events.
+                </p>
+                <a href="s2fp/index.html" class="link">Explore more</a>
+            </div>
+        </div>
+
+        <!-- 12 -->
+        <!-- 13 -->
+
+        <div id="S3A1wrapper" class="workwrapper">
+            <div id="S3A1" class="object layout" onclick="toggleVisibility('S3A1')">11.20 |<br>Section 3, Assignment 1 |</div>
+            <div id="S3A11" class="sub-object layout">
+                <p style="font-size: 24px;">THE SPY LOG</p>
+                <p style="text-align:left">
+                Individually or in small groups of 2 or 3, students will design and write a program or script to be performed. 
+                This can be taken literally, as in your script is intended to be enlivened by actors. 
+                This can be taken loosely and all terms can be creatively interpreted. Regardless, 
+                all performances must incorporate learned principles of scripted “functions,” 
+                and must also include an element of “chance.”
+                </p>
+                <a href="s3a1/index.html" class="link">Explore more</a>
+            </div>
+        </div>
+
+        <!-- 14 -->
 
 
-    <div id="S1A2wrapper" class="workwrapper">
-        <div id="S1A2" class="object layout" onclick="toggleVisibility('S1A2')">09.25 |<br>Section 1, Assignment 2 |</div>
-        <div id="S1A21" class="layout sub-object">
-            The class will work together to build an assemblage sculpture from found 
-            and classroom materials. Individual students will then create a “CSS Still 
-            Life” that must consider HTML layout, nesting, and CSS styling. Final work 
-            may employ CSS animations and any degree of design reduction and abstraction. 
-            All HTML & CSS drawings must be horizontally oriented at 800x600px.
-            <a href="https://codepen.io/Tsong54/pen/mdaBgbO?editors=1100" class="link">Explore more</a>
+        <div id="S3A2wrapper" class="workwrapper">
+            <div id="S3A2" class="object layout" onclick="toggleVisibility('S3A2')">11.29 |<br>Section 3, Assignment 2 |</div>
+            <div id="S3A21" class="sub-object layout">
+                <p style="font-size: 24px;">LAUGH MY ZOOM OFF</p>
+                <p style="text-align:left">
+                An API (Application Programming Interface) allows applications, tools, 
+                or services to safely “share” restricted data with other applications, tools, or services. 
+                The availability of this “public facing” data allows developers to build connected/supplementary platforms 
+                that may ease or augment a user’s experience. In teams of two (+), students will work together 
+                to create and execute an interactive design tool that employs API linking with IFTTT (If This Then That). 
+                Teams must also design and develop a website that serves to promote this tool and document its real-life application and usage.
+                </p>
+                <a href="S3A2-main/index.html" class="link">Explore more</a>
+            </div>
+        </div>
+
+        <!-- 15 -->
+
+        <div id="S3A3wrapper" class="workwrapper">
+            <div id="S3A3" class="object layout" onclick="toggleVisibility('S3A3')">12.11 |<br>Section 3, Final project |</div>
+            <div id="S3A31" class="sub-object layout">
+                <p style="font-size: 24px;">BRANCHING X Y</p>
+                <p style="text-align:left">
+                Using p5.js, students will program a generative design that employs functions, loops, and conditionals. 
+                Designs must also incorporate an element of randomness or chance in their code. 
+                Students will work to embed this design within a separate website that also incorporates designed and user-interactive elements. 
+                </p>
+                <a href="s3final/index.html" class="link">Explore more</a>
+            </div>
+        </div>
+
+        <div id="Portfoliowrapper">
+            <div id="Portfolio" class="object layout" onclick="toggleVisibility('Portfolio')">12.21 |<br>Final Portfolio |</div>
+            <div id="Portfolio1" class="sub-object layout">
+                <p style="font-size: 24px;">THE FINAL FINAL...?</p>
+                <p style="text-align:left">
+                    This is me creating THIS portfolio website of the projects through the adventure in the digial world in this semester. 
+                    However, the official due is never the end...
+                    You know, portfolio can iterate for a whole life time LOL
+                </p>
+            </div>
+        </div>
+
+
+
+<!-- rrsp -->
+
+        <div id="RR15wrapper" class="workwrapper">
+            <div id="RR15" class="object layout rrsp" onclick="toggleVisibility('RR15')" >12.04 | Working Log 15 |</div>
+            <div id="RR151"  class="layout sub-object"><br>
+                Reading for Week 15 - Hito Steyerl - Why Games Or Can Art Workers Think
+                <br>
+                <a href="reading.html" class="link">Read the log</a>
+            </div>
         </div>
         
-    </div>
-
-    
-
-    <div id="RR6wrapper" class="workwrapper">
-        <div id="RR6" class="object layout" onclick="toggleVisibility('RR6')" >
-            Working Log 6 - 10.02 |
+        <div id="RR14wrapper" class="workwrapper">
+            <div id="RR14" class="object layout rrsp" onclick="toggleVisibility('RR14')" >11.27 | Working Log 14 |</div>
+            <div id="RR141"  class="layout sub-object"><br>
+                Reading Responses for Week 14 - Neta Bomani & Sabii Borno - Beyond Dark Matter from Logic Issue 15 Beacons
+                <br>
+                <a href="reading.html" class="link">Read the log</a>
+            </div>
         </div>
-        <div id=" RR61"  class="layout sub-object"><br>
-            Reading Responses for Week 6 - Seth Price - Dispersion
-            <br>
-            <a href="reading.html" class="link">Read the log</a>
+
+        <div id="RR13wrapper" class="workwrapper">
+            <div id="RR13" class="object layout rrsp" onclick="toggleVisibility('RR13')" >11.20 | Working Log 13 |</div>
+            <div id="RR131"  class="layout sub-object"><br>
+                Reading Responses for Week 13 - Paul Soulellis - Performing the Feed
+                <br>
+                <a href="reading.html" class="link">Read the log</a>
+            </div>
         </div>
-    </div>
 
-
-
-    <div id="S1A3wrapper" class="workwrapper">
-        <div id="S1A3" class="object layout" onclick="toggleVisibility('S1A3')">  10.09 |<br> Section 1, Final project |</div>
-        <div id="S1A31" class="sub-object layout">
-            Students will create an online publication (fan site, zine, exhibition, etc) 
-            that includes a minimum of 5 separate pages and a navigational tool/toolset. 
-            No single page and its linked content can be larger than 5 megabytes.
-            <a href="s1fp/index.html" class="link">Explore more</a>
+        <div id="RR12wrapper" class="workwrapper">
+            <div id="RR12" class="object layout rrsp" onclick="toggleVisibility('RR12')" >11.13 | Working Log 12 |</div>
+            <div id="RR121"  class="layout sub-object"><br>
+                Reading Responses for Week 12 - Dot Tuer - Beyond the New Media Frame The Poetics of Absence in Vera Frenkel’s String Games
+                <br>
+                <a href="reading.html" class="link">Read the log</a>
+            </div>
         </div>
-    </div>
 
-
-
-    <div id="RR8wrapper" class="workwrapper">
-        <div id="RR8" class="object layout" onclick="toggleVisibility('RR8')" >
-            Working Log 8- Oct 16
+        <div id="RR10wrapper" class="workwrapper">
+            <div id="RR10" class="object layout rrsp" onclick="toggleVisibility('RR10')" >10.30 | Working Log 10 |</div>
+            <div id="RR101"  class="layout sub-object"><br>
+                Reading Responses for Week 10 - Ramsey Nasser - "A Personal Computer for Children of All Cultures" from Decolonising the Digital
+                <br>
+                <a href="reading.html" class="link">Read the log</a>
+            </div>
         </div>
-        <div id=" RR81"  class="layout sub-object"><br>
-            Reading Responses for Week 8 - Bojana Coklyat & Shannon Finnegan - Selections from Alt-Text as Poetry Workbook
-            <br>
-            <a href="reading.html" class="link">Read the log</a>
-        </div>
-    </div>
-
-
-    <div id="S2A1wrapper" class="workwrapper">
-        <div id="S2A1" class="object layout" onclick="toggleVisibility('S2A1')">Section 2, Assignment 1 <br>(Critique: 10/18)</div>
-        <div id="S2A11" class="sub-object layout">
-            As a class, students will work together to design and build a Web Ring 
-            that links and loops between all students’ web publications (Section 1 Final Project). 
-            The Web Ring may be an external site of links (an index), but must also incorporate some form of modular code 
-            that is implemented on each student’s publication site. 
-            <a href="s1fp/index.html" class="link">Explore more</a>
-        </div>
-    </div>
-
-
-    <div id="RR9wrapper" class="workwrapper">
-        <div id="RR9" class="object layout" onclick="toggleVisibility('RR9')" >
-            Working Log 9 - Oct 23
-        </div>
-        <div id=" RR91"  class="layout sub-object"><br>
-            Reading Responses for Week 9 - Ben Duvall - Selections from New Modernism(s)
-            <br>
-            <a href="reading.html" class="link">Read the log</a>
-        </div>
-    </div>
-
-
-    <div id="S2A2wrapper" class="workwrapper">
-        <div id="S2A2" class="object layout" onclick="toggleVisibility('S2A2')">Section 2, Assignment 2<br>(Critique: 10/25)</div>
-        <div id="S2A21" class="sub-object layout">
-            Students will create a self-contained, single-page site that employs hover effects and CSS selectors 
-            to assist and encourage user interaction. Your site must include a minimum of 5 images 
-            (observing optimization and best practices) and all elements must contain adequate metadata/alt text. 
-            Your site must also account for viewport sizes to serve comparable or alternate user experiences.
-            <a href="https://congupenn.github.io/s2a2/index.html" class="link">Explore more</a>
-        </div>
-    </div>
-
-    <div id="RR10wrapper" class="workwrapper">
-        <div id="RR10" class="object layout" onclick="toggleVisibility('RR10')" >
-            Working Log 10 - Oct 30
-        </div>
-        <div id=" RR101"  class="layout sub-object"><br>
-            Reading Responses for Week 10 - Ramsey Nasser - "A Personal Computer for Children of All Cultures" from Decolonising the Digital
-            <br>
-            <a href="reading.html" class="link">Read the log</a>
-        </div>
-    </div>
-
-
-
-    <div id="S2A3wrapper" class="workwrapper">
-        <div id="S2A3" class="object layout" onclick="toggleVisibility('S2A3')">Section 2, Final project<br>(Critique: 11/06)</div>
-        <div id="S2A31" class="sub-object layout">
-            Computational science and, by proxy, web design have a unique history tethered to the users’ system clock. 
-            Students will follow a formalized process from brainstorming and sketching 
-            to prototyping and construction to create a browser-based design 
-            that employs the system clock’s 3 basic events (seconds, minutes, hours) using p5.js. 
-            Your “clock” doesn’t need to resemble a traditional clock, and may instead employ other functions 
-            that are triggered by these events.
-            <a href="s2fp/index.html" class="link">Explore more</a>
-        </div>
-    </div>
-
-
-    <div id="RR12wrapper" class="workwrapper">
-        <div id="RR12" class="object layout" onclick="toggleVisibility('RR12')" >
-            Working Log 12 - Nov 13
-        </div>
-        <div id=" RR121"  class="layout sub-object"><br>
-            Reading Responses for Week 12 - Dot Tuer - Beyond the New Media Frame The Poetics of Absence in Vera Frenkel’s String Games
-            <br>
-            <a href="reading.html" class="link">Read the log</a>
-        </div>
-    </div>
-
-    <div id="RR13wrapper" class="workwrapper">
-        <div id="RR13" class="object layout" onclick="toggleVisibility('RR13')" >
-            Working Log 13 - Nov 20
-        </div>
-        <div id=" RR131"  class="layout sub-object"><br>
-            Reading Responses for Week 13 - Paul Soulellis - Performing the Feed
-            <br>
-            <a href="reading.html" class="link">Read the log</a>
-        </div>
-    </div>
-
-
-
-    <div id="S3A1wrapper" class="workwrapper">
-        <div id="S3A1" class="object layout" onclick="toggleVisibility('S3A1')">Section 3, Assignment 1 <br>(Critique: 11/20)</div>
-        <div id="S3A11" class="sub-object layout">
-            Individually or in small groups of 2 or 3, students will design and write a program or script to be performed. 
-            This can be taken literally, as in your script is intended to be enlivened by actors. 
-            This can be taken loosely and all terms can be creatively interpreted. Regardless, 
-            all performances must incorporate learned principles of scripted “functions,” 
-            and must also include an element of “chance.”
-            <a href="s3a1/index.html" class="link">Explore more</a>
-        </div>
-    </div>
-
-
-    <div id="RR14wrapper" class="workwrapper">
-        <div id="RR14" class="object layout" onclick="toggleVisibility('RR14')" >
-            Working Log 14 - Nov 27
-        </div>
-        <div id=" RR141"  class="layout sub-object"><br>
-            Reading Responses for Week 14 - Neta Bomani & Sabii Borno - Beyond Dark Matter from Logic Issue 15 Beacons
-            <br>
-            <a href="reading.html" class="link">Read the log</a>
-        </div>
-    </div>
-
-
-
-    <div id="S3A2wrapper" class="workwrapper">
-        <div id="S3A2" class="object layout" onclick="toggleVisibility('S3A2')">Section 3, Assignment 2 <br>(Critique: 11/29)</div>
-        <div id="S3A21" class="sub-object layout">
-            An API (Application Programming Interface) allows applications, tools, 
-            or services to safely “share” restricted data with other applications, tools, or services. 
-            The availability of this “public facing” data allows developers to build connected/supplementary platforms 
-            that may ease or augment a user’s experience. In teams of two (+), students will work together 
-            to create and execute an interactive design tool that employs API linking with IFTTT (If This Then That). 
-            Teams must also design and develop a website that serves to promote this tool and document its real-life application and usage.
-            <a href="S3A2-main/index.html" class="link">Explore more</a>
-        </div>
-    </div>
-
-
-    <div id="RR15wrapper" class="workwrapper">
-        <div id="RR15" class="object layout" onclick="toggleVisibility('RR15')" >
-            Working Log 15 - Dec 04
-        </div>
-        <div id=" RR151"  class="layout sub-object"><br>
-            Reading for Week 15 - Hito Steyerl - Why Games Or Can Art Workers Think
-            <br>
-            <a href="reading.html" class="link">Read the log</a>
-        </div>
-    </div>
-
-
-    
-
-    <div id="S3A3wrapper" class="workwrapper">
-        <div id="S3A3" class="object layout" onclick="toggleVisibility('S3A3')">Section 3, Final project<br>(Critique: 12/11)</div>
-        <div id="S3A31" class="sub-object layout">
-            Using p5.js, students will program a generative design that employs functions, loops, and conditionals. 
-            Designs must also incorporate an element of randomness or chance in their code. 
-            Students will work to embed this design within a separate website that also incorporates designed and user-interactive elements. 
-            <a href="s3final/index.html" class="link">Explore more</a>
-        </div>
-    </div>
-
         
+        <div id="RR9wrapper" class="workwrapper">
+            <div id="RR9" class="object layout rrsp" onclick="toggleVisibility('RR9')" >10.23 | Working Log 9 |</div>
+            <div id="RR91"  class="layout sub-object"><br>
+                Reading Responses for Week 9 - Ben Duvall - Selections from New Modernism(s)
+                <br>
+                <a href="reading.html" class="link">Read the log</a>
+            </div>
+        </div>
 
-    <a href="https://roser-wang.github.io/s1fp/" id="relocate">Go somewhere else</a>
-    <a href="2.html">link to my second page</a>
+        <div id="RR8wrapper" class="workwrapper">
+            <div id="RR8" class="object layout rrsp" onclick="toggleVisibility('RR8')" >10.16 | Working Log 8 |</div>
+            <div id="RR81"  class="layout sub-object"><br>
+                Reading Responses for Week 8 - Bojana Coklyat & Shannon Finnegan - Selections from Alt-Text as Poetry Workbook
+                <br>
+                <a href="reading.html" class="link">Read the log</a>
+            </div>
+        </div>
+
+        <div id="RR6wrapper" class="workwrapper">
+            <div id="RR6" class="object layout rrsp" onclick="toggleVisibility('RR6')" >10.02 | Working Log 6 |</div>
+            <div id="RR61"  class="layout sub-object"><br>
+                Reading Responses for Week 6 - Seth Price - Dispersion
+                <br>
+                <a href="reading.html" class="link">Read the log</a>
+            </div>
+        </div>
+
+        <div id="RR5wrapper" class="workwrapper">
+            <div id="RR5" class="object layout rrsp" onclick="toggleVisibility('RR5')" >09.25 | Working Log 5 |</div>
+            <div id="RR51"  class="layout sub-object"><br>
+                Reading Responses for Week 5 - Olia Lialina - 
+                STILL THERE Ruins and Templates of Geocities from Lost and Living (in) Archives
+                <br>
+                <a href="reading.html" class="link">Read the log</a>
+            </div>
+        </div>
+
+        <div id="RR4wrapper" class="workwrapper">
+            <div id="RR4" class="object layout rrsp" onclick="toggleVisibility('RR4')" >09.18 | Working Log 4 |</div>
+            <div id="RR41"  class="layout sub-object"><br>
+                Reading Responses for Week 4 - Alessandro Ludovico & Florian Cramer - 
+                Selections from Publishing from Post-Digital-Print
+                <br>
+                <a href="reading.html" class="link">Read the log</a>
+            </div>
+        </div>
+
+    </div>
+    
+<br>all rights reserved by Cong Liu @2023
+    <!-- <a href="https://roser-wang.github.io/s1fp/" id="relocate">Go somewhere else</a>
+    <a href="2.html">link to my second page</a> -->
 
 
     <script src="script.js"></script>

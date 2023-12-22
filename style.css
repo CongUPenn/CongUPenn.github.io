@@ -17,7 +17,7 @@
 
 .grid {
     display: flex;
-    height: 180vh;
+    height: 120vh;
     z-index: -2;
   }
 
@@ -41,13 +41,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgb(255, 234, 44);
+    border: 3px solid rgb(255, 234, 44);
     box-sizing: border-box;
     font-family: 'VT323', monospace;
     font-size: 50px;
-    color:rgb(255, 255, 15);
+    /* color:rgb(255, 255, 15); */
+    color:#ffffff;
     border-radius: 10px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color:rgb(250, 220, 0) ;
     
 }
 
@@ -90,7 +92,8 @@
 .object {
     cursor: pointer;
     user-select: none;
-    background-color: rgb(255, 234, 44);
+    /* background-color: rgb(255, 234, 44); */
+    background-color: rgb(250, 220, 0);
 }
 
 .sub-object {
@@ -224,3 +227,24 @@
 }
 
 
+
+/* content of rrsp */
+
+#log{
+    font-family: 'VT323', monospace;
+    display: flex;
+    width: 2000px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.paragraph{
+    border-radius: 10px;
+    padding:20px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    color:#a69126;
+    text-align: left;
+    /* for gaps vertical between the items */
+    margin-bottom: 10;
+}

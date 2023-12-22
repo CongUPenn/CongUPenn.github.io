@@ -13,7 +13,6 @@ img {
 
 body {
     /* background-color: white; */
-    background-color: yellow;
-    margin: 0px;
+    background-color: rgb(255, 234, 44);
     min-height: 500vh;
 }

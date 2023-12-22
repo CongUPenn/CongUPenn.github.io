@@ -1,9 +1,14 @@
+body {
+    /* cursor: url("user.gif"),auto; */
+    min-height: 1000px;;
+  }
+
 .animation{
     transition: 1s;
 }
 
 #title{
-    padding-top: 100px;
+    padding-top: 118px;
     padding-left:calc(50vw - 200px);
     color: #000000;
     font-family: monospace;
@@ -11,18 +16,11 @@
     letter-spacing: 3px;
 }
 
-#ref{
-    padding-top: 50px;
-    padding-left:calc(50vw - 200px);
-    color: #000000;
-    font-family: monospace;
-    font-size: 16px;
-    letter-spacing: 3px;
-}
+
 
 #background{
     position: absolute;
-    top:450px;
+    top:316px;
     left:calc(50vw - 300px);
     width: 600px;
     height: 400px;
@@ -57,7 +55,7 @@
 #step1{
     background-color: #fff0bb;
     position: absolute;
-    top:450px;
+    top:316px;
     left:calc(50vw - 650px);
     width: 300px;
     height: 150px;
@@ -75,7 +73,7 @@
 
 #grahamcracker{
     position: absolute;
-    top:550;
+    top:416;
     left:50;
     width: 200px;
     height: 200px;
@@ -101,7 +99,7 @@
 
 #cracker{
     position: absolute;
-    top:570;
+    top:436;
     left:240;
     width: 200px;
     height: 200px;
@@ -123,7 +121,7 @@
 
 #base{
     position: absolute;
-    top:500px;
+    top:366px;
     left:calc(50vw - 160px);
     width: 300px;
     height: 300px;
@@ -146,7 +144,7 @@
 #step2{
     background-color: #f0bbff;
     position: absolute;
-    top:700px;
+    top:566px;
     left:calc(50vw - 650px);
     width: 300px;
     height: 150px;
@@ -176,7 +174,7 @@
 
 #cream{
     position: absolute;
-    top:500px;
+    top:366px;
     left:calc(50vw - 160px);
     width: 300px;
     height: 300px;
@@ -227,7 +225,7 @@
 
 #mix{
     position: absolute;
-    top:500px;
+    top:366px;
     left:calc(50vw - 160px);
     width: 300px;
     height: 300px;
@@ -293,7 +291,7 @@
 
 #fill{
     position: absolute;
-    top:500px;
+    top:366px;
     left:calc(50vw - 160px);
     width: 300px;
     height: 300px;
@@ -353,7 +351,7 @@
 
 #topping{
     position: absolute;
-    top:530px;
+    top:396px;
     left:calc(50vw - 110px);
     width: 195px;
     height: 55px;
